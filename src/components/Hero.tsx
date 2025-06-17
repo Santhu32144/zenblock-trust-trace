@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -28,13 +27,13 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in space-y-8 pt-16 sm:pt-20 md:pt-24">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[3.25rem] font-bold text-zenblock-inverse-text mb-6 leading-tight sm:leading-relaxed">
-            Enabling Trust in
-            <br />
-            <span className="bg-gradient-to-r from-zenblock-white to-zenblock-electric-blue bg-clip-text text-transparent">
-              Regulated Supply Chains
+            <span className="flex flex-col space-y-6">
+              <span>Enabling Trust in</span>
+              <span className="bg-gradient-to-r from-zenblock-white to-zenblock-electric-blue bg-clip-text text-transparent">
+                Regulated Supply Chains
+              </span>
+              <span>through Blockchain</span>
             </span>
-            <br />
-            through Blockchain
           </h1>
           
           <p className="text-sm sm:text-base md:text-lg lg:text-[1.25rem] text-zenblock-inverse-text/90 mb-8 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
